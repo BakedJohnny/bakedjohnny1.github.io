@@ -1,0 +1,8 @@
+body{
+  background: url(../images/backgroundpattern.jpg);
+  margin: 0;
+}
+
+.div_1{
+  background-image: url(../images/background.jpg);
+}
