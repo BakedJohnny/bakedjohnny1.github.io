@@ -12,6 +12,10 @@ body{
   font-size: 14px;
 }
 
+a{
+  color: #3d3935;
+}
+
 .flex{
   display: flex;
 }
@@ -43,6 +47,10 @@ body{
 .div1_bottom{
   justify-content: space-around;
   margin-top: 20px;
+}
+
+.div1_bottom a:hover{
+
 }
 
 .div2{
@@ -138,8 +146,44 @@ body{
 
 .div11{
   background-color: #f7f7f7;
+  font-size: 12px;
+  padding: 50px 15% 0 15%;
+}
+
+.div11 div:last-child{
+  margin-left: auto;
 }
 
 .div11 div{
   flex-direction: column;
+}
+
+.div11 a{
+  padding-top: 20px;
+}
+
+.about, .customer, .quick{
+  padding: 0px 20px;
+}
+
+.sticker img{
+  height: 150px;
+}
+
+.div12{
+  padding-left: 15%;
+  background-color: #f7f7f7;
+}
+
+.div12 a{
+  border-right: 1px solid #3d3935;
+  padding: 0 10px;
+}
+
+.div12 a:last-child{
+  border: none;
+}
+
+.div12 p{
+  padding: 20px 10px;
 }
