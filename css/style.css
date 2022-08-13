@@ -30,6 +30,7 @@ a{
   padding: 20px 20px;
   margin-left: 280px;
   flex-direction: column;
+  padding-bottom: 0px;
 }
 
 .div1_top{
@@ -38,6 +39,7 @@ a{
 
 .div1_top a{
   color: #5b5959;
+
 }
 
 .div1_top a:last-child{
@@ -49,8 +51,52 @@ a{
   margin-top: 20px;
 }
 
-.div1_bottom a:hover{
+.div1_bottom a{
+  display: block;
+  padding: 15px;
+}
 
+.drop{
+  display: none;
+  position: absolute;
+  background: #1e1e1e;
+  max-width: 1340px;
+  width: 1340px;
+}
+
+.drop div{
+  margin: 20px 0px 20px 0px;
+}
+
+.drop a{
+    color: white;
+}
+
+.drop h2{
+  color: white;
+  padding: 10px 10px 0px 10px;
+}
+
+.drop div div{
+  padding-right: 100px;
+}
+
+.div1_bottom a:hover{
+  background: #1e1e1e;
+  color: white;
+}
+
+.nav_button:hover .drop{
+  display: block;
+}
+
+..nav_button:hover a{
+  background: #1e1e1e;
+  color: white;
+}
+
+.col{
+  flex-direction: column;
 }
 
 .div2{
